@@ -1,0 +1,15 @@
+name: padise_laager
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - conda-forge::opencv
+  - anaconda::ipykernel
+  - conda-forge::face_recognition
+  - conda-forge::pyautogui
+  - torchvision
+  - cpuonly
+  - pytorch
+  - pandas
+prefix: C:\Users\rooben\anaconda3\envs\padise_laager
