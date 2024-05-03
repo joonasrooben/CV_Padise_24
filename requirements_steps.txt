@@ -1,8 +1,10 @@
+https://docs.anaconda.com/free/miniconda/miniconda-other-installer-links/
+conda create -n padise_laager
+conda activate padise_laager
 pip install mediapipe
 conda install conda-forge::opencv
 conda install anaconda::ipykernel
 conda install conda-forge::face_recognition
 conda install conda-forge::pyautogui
 conda install pytorch torchvision cpuonly -c pytorch
-conda install matplotlib
-conda install numpy, pandas
+conda install matplotlib, numpy, pandas
